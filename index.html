@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NOCTURNE — Private Collection</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html"><i></i> NOCTURNE COLLECTION</a>
+  <a href="#collection">SAMMLUNG</a>
+</header>
+
+<main>
+<section class="hero">
+  <p class="eyebrow">PRIVATE DIGITAL MUSEUM</p>
+  <h1>Objekte.<br><span>Geschichten.</span><br>Provenienz.</h1>
+  <p class="intro">Eine kuratierte private Sammlung mit Herkunft, Kontext, Bedeutung und Geschichte.</p>
+  <a class="pill" href="#collection">Sammlung entdecken ↓</a>
+</section>
+
+<section class="collection" id="collection">
+  <div class="section-title">
+    <div><p class="eyebrow">COLLECTION</p><h2>Die Sammlung</h2></div>
+    <p>Neue Objekte werden nur noch in <b>collection.js</b> eingetragen. Karten und Detailseiten entstehen automatisch.</p>
+  </div>
+
+  <div class="tools">
+    <input id="search" type="search" placeholder="Objekt, Kultur, Herkunft …">
+    <div id="filters" class="filters"></div>
+  </div>
+
+  <div id="collectionGrid" class="grid"></div>
+  <div id="empty" class="empty" hidden>Keine passenden Objekte gefunden.</div>
+</section>
+</main>
+
+<footer>PRIVATE COLLECTION <span>CURATED ARCHIVE</span></footer>
+
+<script src="collection.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
