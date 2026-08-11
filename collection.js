@@ -9,9 +9,9 @@ const COLLECTION = [
     id: "hunch-back",
     name: "Hunch Back",
     category: "Kultur & Ethnografie",
-    subtitle: "Diné Sandpainting · vermutlich Ganaskidi",
+    subtitle: "Diné Sandbild · vermutlich Ganaskidi",
     culture: "Diné (Navajo)",
-    artist: "K. J. Tsosie (?)",
+    artist: "(?)",
     date: "Unbekannt",
     origin: "Südwesten der USA",
     material: "Farbiger Sand auf Trägerplatte",
@@ -24,7 +24,7 @@ const COLLECTION = [
     ],
 
     shortDescription:
-      "Dauerhaftes Diné-Sandpainting mit einer vermutlich als Ganaskidi beziehungsweise Hunchback Yei identifizierten Figur.",
+      "Dauerhaftes Diné-Sandbild mit einer vermutlich als Ganaskidi beziehungsweise Hunchback Yei identifizierten Figur.",
 
     sections: [
       {
@@ -35,17 +35,17 @@ Ein wichtiger Begriff der traditionellen Diné-Weltsicht ist Hózhó. Er umfasst
       },
       {
         title: "Der „Hunchback Yei“",
-        text: `Die rückseitige Bezeichnung „Hunch Back“ ist ein starker Hinweis auf eine Hunchback-Yei-Darstellung. Das dargestellte Holy Being lässt sich wahrscheinlich als Ganaskidi einordnen.
+        text: `Die Bezeichnung auf der Rückseite, „Hunch Back“, ist ein starker Hinweis auf eine Hunchback-Yei-Darstellung. Das dargestellte Holy Being lässt sich wahrscheinlich als Ganaskidi einordnen.
 
 Ganaskidi wird in historischen Beschreibungen mit Ernte, Samen, Überfluss sowie Nebel und Feuchtigkeit verbunden. Die auffällige Last beziehungsweise der „Buckel“ sollte deshalb nicht einfach als körperliche Missbildung verstanden werden.`
       },
       {
-        title: "Sandpainting",
-        text: `Traditionelle Diné-Sandbilder sind zeremonielle und vergängliche Werke. Dauerhafte Sandpaintings wurden später als eigenständige Kunstform für Sammler und den Kunsthandel hergestellt. Dabei können traditionelle Motive verändert oder vereinfacht dargestellt sein.`
+        title: "Sandbild",
+        text: `Traditionelle Diné-Sandbilder sind zeremonielle und vergängliche Werke. Dauerhafte Sandbilder wurden später als eigenständige Kunstform für Sammler und den Kunsthandel hergestellt. Dabei können traditionelle Motive verändert oder vereinfacht dargestellt sein.`
       },
       {
         title: "Anmerkung zur Zuschreibung",
-        text: `Die Identifizierung als Ganaskidi und die Lesung des Künstlernamens „K. J. Tsosie“ sind derzeit nicht abschließend gesichert. Weitere Provenienz oder Dokumentation kann diese Einordnung künftig präzisieren.`
+        text: `Die Identifizierung als Ganaskidi und die Lesung des Künstlernamens „K. J. Tsosie“ sind derzeit nicht zu 100% gesichert. Weitere Provenienz oder Dokumentation kann diese Einordnung künftig präzisieren.`
       }
     ],
 
