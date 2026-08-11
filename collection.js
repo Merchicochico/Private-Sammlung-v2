@@ -56,8 +56,8 @@ Ganaskidi wird in historischen Beschreibungen mit Ernte, Samen, Überfluss sowie
   },
 
   {
-    id: "sammlungsobjekt-02",
-    name: "Sammlungsobjekt 02",
+    id: "Schlüssel Suzuki SV650",
+    name: "Schlüssel Suzuki SV650",
     category: "Technik & Motorsport",
     subtitle: "Platzhalter für dein nächstes Objekt",
     culture: "—",
