@@ -46,3 +46,65 @@
 <script src="script.js"></script>
 </body>
 </html>
+/* OBSCURA Hero Animation */
+
+.hero-title {
+  overflow: visible;
+}
+
+.hero-line {
+  display: block;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.hero-line.from-left {
+  transform: translateX(-70px);
+  animation: revealFromLeft 1.1s cubic-bezier(.16,1,.3,1) forwards;
+}
+
+.hero-line.from-right {
+  transform: translateX(70px);
+  animation: revealFromRight 1.1s cubic-bezier(.16,1,.3,1) .18s forwards;
+}
+
+.hero-line.from-left.delay {
+  animation-delay: .36s;
+}
+
+/* Behält den bisherigen Outline-Look von Artifacts */
+.hero-title .outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(243,240,233,.5);
+}
+
+@keyframes revealFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes revealFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(70px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Barrierefreiheit */
+@media (prefers-reduced-motion: reduce) {
+  .hero-line {
+    opacity: 1;
+    transform: none !important;
+    animation: none !important;
+  }
+}
